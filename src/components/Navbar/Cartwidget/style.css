@@ -1,0 +1,12 @@
+.cart {
+    display: flex;
+    align-items: center;
+    background-color: rgba(127, 255, 212, 0);
+}
+
+.cart-icon {
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+    background-color: rgba(127, 255, 212, 0);
+}
