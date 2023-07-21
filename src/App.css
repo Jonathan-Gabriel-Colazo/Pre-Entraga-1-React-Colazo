@@ -1,3 +1,6 @@
-.main{
-  background: #3b2727;
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(66, 154, 231);
+  min-height: 100vh;
 }

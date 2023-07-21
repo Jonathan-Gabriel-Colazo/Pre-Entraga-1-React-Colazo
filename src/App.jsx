@@ -1,5 +1,6 @@
 
 import './App.css'
+import Itemlist from './components/Itemcontainer';
 import Navbar from './components/Navbar';
 
 
@@ -7,7 +8,9 @@ function App() {
 
   return (
     <main className='main'> 
-      <Navbar/>
+      <Navbar>
+      <Itemlist greetings="Hello world" />
+      </Navbar>
     </main>
 
   )
